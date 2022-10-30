@@ -1,0 +1,503 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navContainer{
+  display: flex;
+  flex-direction: row;
+  color: White;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: Tahoma;
+  font-weight: bold;
+  background-color: Black;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menuRoute{
+    color: White;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: Tahoma;
+    font-weight: bold;
+    background-color: Black;
+    padding-right: 10px;
+}
+
+.menuElement{
+  color: White;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: Tahoma;
+    font-weight: bold;
+}
+
+.brandLabel{
+  font-size: 30px;
+  padding-left: 10px;
+}
+
+/*Home Page CSS*/
+
+.page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:100%;
+}
+
+.logo{
+    width: 100%;
+    
+    
+}
+
+.logoImage{
+    max-width:100%;
+    object-fit: fill;
+}
+
+.description{
+    font-size: 15px;
+    font-family: Tahoma;
+    font-weight: bold;
+    width: 80%;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.cart{
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.shopNow{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-content: space-between;
+    align-items: center;
+}
+
+.title{
+    font-size: 25px;
+    font-family: Verdana;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.shopLinks{
+   display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.itemLink{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.linkTitle{
+    font-size: 15px;
+    font-family: Verdana;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.productPicture{
+    width: 200px;
+    height: 250px;
+    object-fit: fill;
+    align-items: center;
+}
+
+.titleBest{
+    font-size: 25px;
+    font-family: Verdana;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.products{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tote, .sticker{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.productPicture{
+    width: 200px;
+    height: 250px;
+    object-fit: fill;
+    align-items: center;
+}
+
+/*Shop Page CSS*/
+
+.instructions{
+      font-size: 15px;
+    font-family: Verdana;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.title{
+    font-size: 25px;
+    font-family: Verdana;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.shopLink{
+   padding: 10px;
+   color: black;
+   font-family: Verdana;
+   font-weight: bold;
+   text-decoration: none;
+   list-style-type: none;
+   padding-bottom: 20px;
+}
+
+.toteLinks{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center; 
+}
+
+.itemLink{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.linkTitle{
+    font-size: 15px;
+    font-family: Verdana;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.linktitle{
+    font-size: 15px;
+    font-family: Verdana;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.productPicture{
+    width: 200px;
+    height: 250px;
+    object-fit: fill;
+    align-items: center;
+}
+
+.LemonGroup{
+    width: 200px;
+    height: 150px;
+    object-fit: fill;
+    align-items: center;
+}
+
+.Lemon{
+    width: 150px;
+    height: 100px;
+}
+
+.StrawberryGroup{
+    width: 300px;
+    height: 200px;
+}
+
+.Pear{
+    width: 150px;
+    height: 200px;
+}
+
+.Peach{
+    width: 150px;
+    height: 150px;
+}
+
+.Watermelon{
+    width: 200px;
+    height: 150px;
+}
+
+.Blueberries{
+    width: 200px;
+    height: 150px;
+}
+
+.cart{
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/*About Page CSS*/
+.text{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-content: space-between;
+    align-items: center;
+}
+
+.picture{
+    object-fit: fill;
+    align-items: center;
+    max-width: 50%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.title{
+    font-size: 30px;
+    font-family: Verdana;
+    font-weight: bold;
+}
+
+.descriptionText{
+    font-size: 15px;
+    font-family: Tahoma;
+    width: 80%;
+    margin-top: 30px;
+}
+
+.aboutFruit{
+    width: 300px;
+    height: 250px;
+    object-fit: fill;
+    align-items: center;
+}
+
+.endPictures{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 100%;
+}
+
+.logoImage{
+    max-width:100%;
+    object-fit: fill;
+}
+
+/*Footer CSS*/
+
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 96%;               
+  background-color:#FFFF00;
+  height: 1px;
+}
+
+.footerList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background-color: black;
+}
+
+.contactList{
+    color: Black;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: Tahoma;
+    font-weight: bold;
+    text-align: center
+}
+
+/*FAQ CSS*/
+.FAQTitle{
+    font-size: 25px;
+    font-family: Verdana;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.question{
+    font-size: 15px;
+    font-family: Tahoma;
+    font-weight: bold;
+}
+
+.answer{
+    font-size: 15px;
+    font-family: Tahoma;
+}
+
+@media only screen and (min-width: 961px) {
+    .description{
+    font-size: 25px;
+    width: 50%;
+    margin-bottom: 50px;
+}
+  .shopLinks, .products{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    }
+    
+    .itemLink{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+    
+    .logo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.logoImage{
+    max-width:80%;
+    object-fit: fill;
+}
+
+.bestsellers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.products{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px;
+    width: 100%;
+}
+
+.tote, .sticker{
+    margin: 100px;
+}
+
+.linkTitle{
+    font-size: 25px;
+    text-align: center;
+}
+    .shopLink{
+        font-size: 30px;
+    }
+    
+    .toteLinks{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    
+    
+.itemLink{
+    width: 30%;
+}
+
+.linktitle{
+    font-size: 30px;
+}
+
+.productPicture{
+    object-fit: fill;
+    align-items: center;
+}
+    .title{
+        margin-top: 50px;
+        font-size: 50px;
+    }
+    .text{
+    display: flex;
+    flex-direction: row;
+    height: 70%;
+
+}
+.aboutFruit{
+    width: 600px;
+    min-height:600px;
+}
+.descriptionText{
+    font-size: 25px;
+    width: 50%;
+}
+
+.endPictures{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+}
+.logo{
+    width: 50%;
+}
+    .questions{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .question, .answer{
+        font-size: 20px;
+        text-align: left
+    }
+    
+    .logo{
+    width: 50%;
+}
+}
